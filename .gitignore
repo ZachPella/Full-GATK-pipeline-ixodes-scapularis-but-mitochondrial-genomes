@@ -1,0 +1,43 @@
+# Big genomics files
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.g.vcf.gz
+*.g.vcf.gz.tbi
+*.bcf
+*.bcf.csi
+
+# FASTA/index outputs
+*.fasta
+*.fa
+*.fai
+*.dict
+
+# GATK / GenomicsDB
+genomicsdb/
+*_genomicsdb/
+*.idx
+
+# Logs and SLURM
+*.log
+slurm-*.out
+*.out
+*.err
+
+# Results folders
+results/
+output/
+outputs/
+consensus/
+filtered_vcf/
+final_vcf/
+gathered_gvcfs/
+scattered_gvcfs/
+
+# Mac junk
+.DS_Store
